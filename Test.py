@@ -1,7 +1,7 @@
 import cv2
-from keras.models import load_model
 from PIL import Image
 import numpy as np
+from keras.models import load_model
 
 model=load_model('Models\BrainTumor10EpochsCategorical16.h5')
 
