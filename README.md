@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/ctrl-gaurav/Brain-Tumor-Detection">
-    <img src="readme/logo.jpeg" alt="Logo" width="570" height="407">
+    <img src="readme/logo.jpeg" alt="Logo" width="427" height="305">
   </a>
 
   <h3 align="center">Brain Tumor Detection</h3>
@@ -43,7 +43,7 @@
 
 ## About The Project
 
-
+Brain Tumor Detection Using Convolutional Neural Networks
 
 
 ## Built With
