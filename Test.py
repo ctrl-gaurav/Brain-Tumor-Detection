@@ -3,9 +3,9 @@ from keras.models import load_model
 from PIL import Image
 import numpy as np
 
-model=load_model('BrainTumor10EpochsCategorical16.h5')
+model=load_model('Models\BrainTumor10EpochsCategorical16.h5')
 
-image=cv2.imread(r'C:\Users\gaura\Desktop\Brain\pred\pred5.jpg')
+image=cv2.imread('test\pred0.jpg')
 
 img=Image.fromarray(image)
 

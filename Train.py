@@ -11,7 +11,7 @@ from keras.layers import Conv2D, MaxPooling2D
 from keras.layers import Activation, Dropout, Flatten, Dense
 # from keras.utils import to_categorical
 
-image_directory='datasets/'
+image_directory='dataset/'
 
 no_tumor_images=os.listdir(image_directory+ 'no/')
 yes_tumor_images=os.listdir(image_directory+ 'yes/')
@@ -113,7 +113,7 @@ validation_data=(x_test, y_test),
 shuffle=False)
 
 
-model.save('BrainTumor10EpochsCategorical.h5')
+model.save('Models/myModel.h5')
 
 
 
